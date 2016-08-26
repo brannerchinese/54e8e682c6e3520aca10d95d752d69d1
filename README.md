@@ -1,6 +1,14 @@
- 1. **Customization**
+ 1. **The Zulip browser window**
 
-    2. **See Streams => Configure streams**
+    2. There are three panes in your browser window. 
+    
+       The middle one is the stream of messages.
+       
+       To its left is a sidebar showing "filters" for different kinds of messages, and below it a menu of streams you are subscribed to. ![Left sidebar](images/left_sidebar.png)
+
+       On the right side of the browser window is a sidebar showing users and some configuration settings. ![Right sidebar](images/right_sidebar.png)
+    
+    2. If your browser  window is narrow, you'll see only the message stream or the message stream and the left sidebar. 
 
  1. **Posting and replying**
 
@@ -38,11 +46,17 @@
 
     2. **Editing past messages**
 
- 1. **Some facts about how we do things**
- 
-    2. **Zulip searches incrementally as you type, but will only match your typing at the beginning of a stream name. So typing "ep" won't bring up "Help", but "He" will.**
+       3. If you want to edit a past message of your own after it has been posted, make sure the mouse is pointing to that message. You should see a little pencil ![pencil](images/pencil.png) at the end of the message and a "down-chevron" ![down chevron](images/down_chevron.png) near the upper right corner of the message. Clicking either one of these will give you editing options.
 
-    2. 
+       3. If you completely delete the text of a message, you won't be able to save it — so try putting a dash or "(deleted)" in as the message text. ~the fact that there was once a message there will still be evident, and the time stamp of the original posting date and time will still be shown.
+
+ 1. **Other common questions**
+
+    2. **Searching**: Zulip searches incrementally as you type, but will only match your typing at the beginning of a stream name. So typing "ep" won't bring up "Help", but "He" will.
+
+    2. **Date of a message**: If you mouse over the time stamp of a message (upper right corner of the message), you'll see a fuller date-time stamp and time zeon.
+
+    2. **Customization**: There are two cogs (![cog](images/cog.png)) that open customization menus: the main one is in the upper right corner of the right sidebar, and there is a smaller one above the list of streams in the left sidebar.
 
  1. **Streams**
 
