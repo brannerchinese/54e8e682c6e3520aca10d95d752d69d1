@@ -1,12 +1,12 @@
- 1. Customization
+ 1. **Customization**
 
-    2. See Streams => Configure streams
+    2. **See Streams => Configure streams**
 
- 1. Posting and replying
+ 1. **Posting and replying**
 
     At the bottom of your screen, choose whether to post to a stream or to individual users. ![New message](images/new_message.png)
 
-    2. Posting and replying to a stream
+    2. **Posting and replying to a stream**
     
        3. Click "New stream message" at the bottom of your screen (or select a stream from the list on the left side of your screen). ![Post to stream](images/post_to_stream.png)
        
@@ -14,15 +14,15 @@
        
        3. Enter a topic name — we recommend keeping them brief, and they are truncated after 50 characters.
        
-       3. Enter your message
+       3. Enter your message.
 
-    2. Posting and replying to individual users ("PM": private message)
+    2. **Posting and replying to individual users ("PM": private message) ![Post to user](images/post_to_user.png)**
 
        3. Enter the name or email address of a user, or the first letters of one. There is no topic when you PM someone.
 
-       3. You can put 
+       3. You can send a message to multiple users at once, by separating their email addresses with a comma. Each recipient will see all the other recipients. For several days, the list of recipients will appear under "GROUP PMs" at the lower right corner of your screen.
 
-    2. Some facts about messages
+    2. **Some facts about messages**
 
        3. The paperclip icon (![paperclip](images/paperclip.png)) under the message field lets you attach files, including images, sound, and video. These are uploaded to a server, but we display a thumbnail if we can.
 
@@ -30,21 +30,27 @@
 
        3. If a message is interrupted before you send it, the next time you open the "New stream message" interface you'll see "Restore draft" below the message field. Currently we only save a single interrupted message, and if you leave the Zulip site the message will be deleted.
 
-    2. Editing past messages
+       3. Type a tab and then the "return" key to click the Send button without having to use your mouse.
 
- 1. Some facts about how we do things
+       3. Typing "return" will begin a new paragraph within your message; if you want it to send, check the "Press Enter to send" box under the message field. It stays checked until you uncheck it.
+
+       3. If you want greater separation of your paragraphs, enter a non-breaking space (option-space on Macintosh) on a line alone between other paragraphs.
+
+    2. **Editing past messages**
+
+ 1. **Some facts about how we do things**
  
-    2. Zulip searches incrementally as you type, but will only match your typing at the beginning of a stream name. So typing "ep" won't bring up "Help", but "He" will.
+    2. **Zulip searches incrementally as you type, but will only match your typing at the beginning of a stream name. So typing "ep" won't bring up "Help", but "He" will.**
 
     2. 
 
- 1. Streams
+ 1. **Streams**
 
-    2. Subscribe to streams
+    2. **Subscribe to streams**
 
-    2. Add streams
+    2. **Add streams**
 
-    2. Configure streams
+    2. **Configure streams**
 
        3. Narrow
 
@@ -58,19 +64,19 @@
 
        3. Choose custom color
 
-    2. Filtering your streams list
+    2. **Filtering your streams list**
 
- 1. Searching
+ 1. **Searching**
 
-    2. Searching for content
+    2. **Searching for content**
 
        3. 
 
-    2. Searching for users
+    2. **Searching for users**
     
-    2. Searching for a stream: **see** Streams => Filtering your streams list
+    2. **Searching for a stream: **see** Streams => Filtering your streams list**
 
- 1. Help
+ 1. **Help**
  
 ---
 
