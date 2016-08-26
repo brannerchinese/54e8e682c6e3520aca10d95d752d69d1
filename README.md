@@ -4,7 +4,7 @@
 
  1. Posting and replying
 
-    Choose whether to post to a stream or to individual users. ![](images/post_to_stream.png)
+    Choose whether to post to a stream or to individual users. ![Post to stream](images/post_to_stream.png)
 
     2. Posting and replying to a stream
     
