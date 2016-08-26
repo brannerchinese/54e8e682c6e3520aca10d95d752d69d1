@@ -4,6 +4,8 @@
 
  1. Posting and replying
 
+    Choose whether to post to a stream or to individual users. ![](images/post_to_stream.png)
+
     2. Posting and replying to a stream
     
        * Click "New stream message" at the bottom of your screen or select a stream from the list on the left side of your screen.
