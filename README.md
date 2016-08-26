@@ -86,16 +86,13 @@
 
           Special things you can do with a stream you are subscribed to:
 
-          4. Turning off ("muting") a stream, while staying subscribed to it.
+          * Turning off ("muting") a stream, while staying subscribed to it.
 
-          4. "Pinning" a stream (moving it to the top of the list of streams.
+          * "Pinning" a stream (moving it to the top of the list of streams.
 
-          4. Marking all messages as read.
+          * Marking all messages as read.
 
-          4. Choosing a custom color.
-
-    2. **Filtering your streams list**
-
+          * Choosing a custom color.
 
  1. **Help**
  
