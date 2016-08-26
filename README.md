@@ -123,9 +123,6 @@ Most people use currently Zulip on the Web. There are also versions for Android/
 
 	  You can leave the Streams pane by clicking on Home near the top of the left sidebar.
 
+       3. Other customizations are available in the Settings pane. Please experiment with them.
 
-
- 1. **Help**
- 
-
-
+[end]
