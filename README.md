@@ -66,17 +66,15 @@
 
     2. **User status** is marked by little circles to the left of a user's name:
 
-       * A green circle (![green circle]green_circle.png)) means the user is "active" — the browser has determined that the Zulip page has "focus" at the moment on the user's computer.
+       * A green circle (![green circle](green_circle.png)) means the user is "active" — the browser has determined that the Zulip page has "focus" at the moment on the user's computer.
 
-       * A orange half-filled circle (![orange half circle]orange_half_circle.png)) means the user is not active but was recently so.
+       * A orange half-filled circle (![orange half circle](orange_half_circle.png)) means the user is "not active" but was recently so.
 
-       * A white, circle (![white empty circle]white_empty_circle.png)) means the user's activity sstate is unknown
+       * A white, circle (![white empty circle](white_empty_circle.png)) means the user is not active and was not recently so.
 
+       The same information is available by mousing over a given user's name.
 
-
-       The same information is available by mousing over their name.
-
-       If you have messaged multiple individual users, their names will appear at the bottom of the right sidebar. In that case, a pale green circle (![pale green circle]pale_green_circle.png)) means that some are recently but not currently active, while others are state unknown. A regular green circle means they are all at least recently active.
+       If you have messaged multiple individual users, their names will appear at the bottom of the right sidebar. In that case, a pale green circle (![pale green circle](pale_green_circle.png)) means that some are recently but not currently active, while others are state unknown. A regular green circle (![green circle](green_circle.png)) means they are all at least recently active.
 
     2. **Customization**: 
     
