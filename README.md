@@ -2,13 +2,17 @@
 
     2. There are three panes in your browser window. 
     
-       The middle one is the stream of messages.
+       The middle one, the "**message table**,  is the stream of messages.
        
-       To its left is a sidebar showing "filters" for different kinds of messages, and below it a menu of streams you are subscribed to. ![Left sidebar](images/left_sidebar.png)
+       To its left is the "**left sidebar**", showing "filters" or "views" for different kinds of messages, and below it a menu of streams you are subscribed to:
+       
+       ![Left sidebar](images/left_sidebar.png)
 
-       On the right side of the browser window is a sidebar showing users and some configuration settings. ![Right sidebar](images/right_sidebar.png)
+       On the right side of the browser window is the "**right sidebar**", showing users and some configuration settings:
+       
+       ![Right sidebar](images/right_sidebar.png)
     
-    2. If your browser  window is narrow, you'll see only the message stream or the message stream and the left sidebar. 
+    2. If your browser  window is narrow, you'll see only the message table, or the message table and the left sidebar. 
 
  1. **Posting and replying**
 
@@ -56,53 +60,49 @@
 
     2. **Date of a message**: If you mouse over the time stamp of a message (upper right corner of the message), you'll see a fuller date-time stamp and time zeon.
 
-    2. **Customization**: There are two cogs (![cog](images/cog.png)) that open customization menus: the main one is in the upper right corner of the right sidebar, and there is a smaller one above the list of streams in the left sidebar.
+    2. **Show only messages in a particular stream**: This is called "narrowing" to a stream. The simplest way is by clicking on the stream's name in the left sidebar.
 
- 1. **Streams**
+    2. **Show only messages in a particular topic"**: Click on the topic, on a message containing it in the message table. You can do the same thing by clicking on a stream in the left sidebar to open a list of recent topics, and then click on a topic there. Only the most topics are listed, though; if you want to find an older topic, you may have to use the search box (above the message table) or scroll back in time by hand.
 
-    2. **Subscribe to streams**
+    2. **User status** is marked by little circles to the left of a user's name:
 
-    2. **Add streams**
+       * A green circle (![green circle]green_circle.png)) means the user is "active" — the browser has determined that the Zulip page has "focus" at the moment on the user's computer.
 
-    2. **Configure streams**
+       * A orange half-filled circle (![orange half circle]orange_half_circle.png)) means the user is not active but was recently so.
 
-       3. Narrow
+       * A white, circle (![white empty circle]white_empty_circle.png)) means the user's activity sstate is unknown
 
-       3. Mute
 
-       3. Pin
 
-       3. Mark all as read
+       The same information is available by mousing over their name.
 
-       3. Stream settings
+       If you have messaged multiple individual users, their names will appear at the bottom of the right sidebar. In that case, a pale green circle (![pale green circle]pale_green_circle.png)) means that some are recently but not currently active, while others are state unknown. A regular green circle means they are all at least recently active.
 
-       3. Choose custom color
+    2. **Customization**: 
+    
+       3. **Zulip**. For customizing Zulip itself, there is a cog (![cog](images/cog.png)) is in the upper right corner of the right sidebar.
+       
+       3. **Streams**. For customizing your stream subscriptions and individual streams, you can either use the "Manage Streams" menu-option under the main cog, or use the smaller cog above the list of streams in the left sidebar. The message table will be replaced with a "Streams" pane. (You can also get to this pane using the cog-icon above the list of streams in the left sidebar.) On the Streams pane you can create streams, subscribe or unsubscribe to existing streams, subscribe other people, mute or unmute a stream, and control a stream's color and notification settings.
+
+          For customizing an individual stream without opening the Streams pane, there is a "down-chevron" ![down chevron](images/down_chevron.png) to the right of each stream-name in the left sidebar. Clicking the chevron opens a menu of options.
+
+          Special things you can do with a stream you are subscribed to:
+
+          4. Turning off ("muting") a stream, while staying subscribed to it.
+
+          4. "Pinning" a stream (moving it to the top of the list of streams.
+
+          4. Marking all messages as read.
+
+          4. Choosing a custom color.
 
     2. **Filtering your streams list**
 
- 1. **Searching**
-
-    2. **Searching for content**
-
-       3. 
-
-    2. **Searching for users**
-    
-    2. **Searching for a stream: **see** Streams => Filtering your streams list**
 
  1. **Help**
  
 ---
 
-User status is marked by little circles to the left of a user's name:
-
- * active (green circle)
- * not active — recently active but currently qqq (orange half-filled circle),
- * state unknown (white circle)
-
- The same information is available by mousing over their name.
-
-multiple individual users
 
 Search people — start of names only.
 
