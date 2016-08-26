@@ -4,21 +4,23 @@
 
  1. Posting and replying
 
-    At the bottom of your screen, choose whether to post to a stream or to individual users. ![Post to stream](images/post_to_stream.png)
+    At the bottom of your screen, choose whether to post to a stream or to individual users. ![New message](images/new_message.png)
 
     2. Posting and replying to a stream
     
-       3. Click "New stream message" at the bottom of your screen (or select a stream from the list on the left side of your screen).
+       3. Click "New stream message" at the bottom of your screen (or select a stream from the list on the left side of your screen). ![Post to stream](images/post_to_stream.png)
        
-       3. Enter a stream name. Private ("invitation only") streams show a lock next to the name.
+       3. Enter a stream name, or the beginning of one. Private ("invitation only") streams show a lock next to the name.
        
        3. Enter a topic name — we recommend keeping them brief, and they are truncated after 50 characters.
        
        3. Enter your message
 
-    2. Posting and replying to individual users
+    2. Posting and replying to individual users ("PM": private message)
 
-       3. 
+       3. Enter the name or email address of a user, or the first letters of one. There is no topic when you PM someone.
+
+       3. You can put 
 
     2. Some facts about messages
 
