@@ -4,23 +4,37 @@
 
  1. Posting and replying
 
-    Choose whether to post to a stream or to individual users. ![Post to stream](images/post_to_stream.png)
+    At the bottom of your screen, choose whether to post to a stream or to individual users. ![Post to stream](images/post_to_stream.png)
 
     2. Posting and replying to a stream
     
-       * Click "New stream message" at the bottom of your screen or select a stream from the list on the left side of your screen.
+       3. Click "New stream message" at the bottom of your screen (or select a stream from the list on the left side of your screen).
        
-       * Enter a stream name. Zulip searches incrementally as you type, but will only match your typing at the beginning of a stream name. So typing "lp" won't bring up "Help", but "He" will.
+       3. Enter a stream name. Private ("invitation only") streams show a lock next to the name.
        
-       * Private ("invitation only") streams have a lock next to the name
+       3. Enter a topic name — we recommend keeping them brief, and they are truncated after 50 characters.
        
-       * Enter a topic name — we recommend keeping them brief, and they are truncated after 50 characters.
-       
-       * 
+       3. Enter your message
 
     2. Posting and replying to individual users
 
+       3. 
+
+    2. Some facts about messages
+
+       3. The paperclip icon (![paperclip](images/paperclip.png)) under the message field lets you attach files, including images, sound, and video. These are uploaded to a server, but we display a thumbnail if we can.
+
+       3. Zulip uses a subset of [GitHub Flavored Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables) (GFM), and the **A** icon under the message field brings up a cheat-sheet for what we support.
+
+       3. If a message is interrupted before you send it, the next time you open the "New stream message" interface you'll see "Restore draft" below the message field. Currently we only save a single interrupted message, and if you leave the Zulip site the message will be deleted.
+
     2. Editing past messages
+
+ 1. Some facts about how we do things
+ 
+    2. Zulip searches incrementally as you type, but will only match your typing at the beginning of a stream name. So typing "ep" won't bring up "Help", but "He" will.
+
+    2. 
 
  1. Streams
 
