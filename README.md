@@ -60,7 +60,7 @@ Most people use currently Zulip on the Web. There are also versions for Android/
 
  1. **Other common questions**
 
-    2. **Searching**: Zulip searches incrementally as you type, but will only match your typing at the beginning of a stream name. So typing "ep" won't bring up "Help", but "He" will.
+    2. **Searching**: Zulip searches incrementally as you type, but will only match your typing at the beginning of a stream name. So typing "el" won't bring up "Help", but "He" will.
 
     2. **Date of a message**: If you mouse over the time stamp of a message (upper right corner of the message), you'll see a fuller date-time stamp and time zeon.
 
@@ -70,9 +70,9 @@ Most people use currently Zulip on the Web. There are also versions for Android/
 
     2. **Show only messages with a particualr user**: Click on the user's name in the right sidebar and your PM history will appear. If you have had group-PM conversations, they will only show up if you "narrow to" private messages with all participants — narrowing to just one user will not show group PMs including that user.
 
-    2. **What keyboard shortcuts are available?** Go to the cog (![cog](images/cog.png)) in the upper right corner of the right sidebar and choosing "Keyboard shortcuts" from the drop-down menu.
+    2. **What keyboard shortcuts are available?** Go to the cog (![cog](images/cog.png)) in the upper right corner of the right sidebar and choose "Keyboard shortcuts" from the drop-down menu.
 
-    2. **What formatting is available for my message?** Zulip uses a subset of [GitHub Flavored Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables) (GFM), To see the current subset, go to the cog (![cog](images/cog.png)) in the upper right corner of the right sidebar and choosing "Message formatting" from the drop-down menu.
+    2. **What formatting is available for my message?** Zulip uses a subset of [GitHub Flavored Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables) (GFM), To see the current subset, go to the cog (![cog](images/cog.png)) in the upper right corner of the right sidebar and choose "Message formatting" from the drop-down menu.
 
     2. **How do you search for past messages?** It is possible to do limited searches on past messages. Some special features and limitations:
     
@@ -80,13 +80,13 @@ Most people use currently Zulip on the Web. There are also versions for Android/
        
        3. Searching by date isn't currently possible. 
 
-       3. Search hits include morphological variants by default (if you search for _walking_ you'll also get _walk_, _walks_, _walked_, and so on). Sometimes putting a search term in quotes seems to eliminate the morphological variants, but the behavior isn't consistent yet.
+       3. Search hits include morphological variants by default (if you search for _walking_ you'll also get _walk_, _walks_, _walked_, and so on). Sometimes putting a search term in quotes seems to eliminate the morphological variants, but that behavior isn't consistent right now.
 
        3. It's possible to combine search terms within parentheses using logical operators — searching for `("arrays" and "queues")` will return only those messages containing both _arrays_ and _queues_.
 
        3. Many common words are "stop words" — the search tool will ignore them, because they appear in too many messages to be useful.
     
-       3. To see a list of search operators, go to the cog (![cog](images/cog.png)) in the upper right corner of the right sidebar and choosing "Search help" from the drop-down menu.
+       3. To see a list of search operators, go to the cog (![cog](images/cog.png)) in the upper right corner of the right sidebar and choose "Search help" from the drop-down menu.
 
 
     2. **User status** is marked by little circles to the left of a user's name:
@@ -121,7 +121,7 @@ Most people use currently Zulip on the Web. There are also versions for Android/
 
           * Choosing a custom color.
 
-	  You can leave the Streams pane by clicking on Home near the top of the left sidebar.
+          You can leave the Streams pane by clicking on Home near the top of the left sidebar.
 
        3. Other customizations are available in the Settings pane. Please experiment with them.
 
