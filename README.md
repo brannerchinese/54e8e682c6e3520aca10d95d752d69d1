@@ -4,11 +4,11 @@
 
  1. Posting and replying
 
-    Choose whether to post to a stream or to individual users. ![Post to stream](images/post_to_stream.png)
+    Choose whether to post to a stream or to individual users. ![New message](images/new_message.png)
 
     2. Posting and replying to a stream
-    
-       * Click "New stream message" at the bottom of your screen or select a stream from the list on the left side of your screen.
+
+       * Click "New stream message" at the bottom of your screen or select a stream from the list on the left side of your screen. ![Post to stream](images/post_to_stream.png)
        
        * Enter a stream name. Zulip searches incrementally as you type, but will only match your typing at the beginning of a stream name. So typing "lp" won't bring up "Help", but "He" will.
        
