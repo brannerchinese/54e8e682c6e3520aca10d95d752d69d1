@@ -1,3 +1,7 @@
+Zulip is a chat app. Its most distinctive characteristic is that conversation among a group of people can be divided according to subject "streams" and further subdivided into "topics". 
+
+Most people use Zulip on the Web. There are also versions for Android/iOS, and for Mac/Linux/Windows, as well as a cross-platform version and a version for Platform 9. See https://zulip.tabbott.net/apps for more information.
+
  1. **The Zulip browser window**
 
     2. There are three panes in your browser window. 
@@ -38,7 +42,7 @@
 
        3. The paperclip icon (![paperclip](images/paperclip.png)) under the message field lets you attach files, including images, sound, and video. These are uploaded to a server, but we display a thumbnail if we can.
 
-       3. Zulip uses a subset of [GitHub Flavored Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables) (GFM), and the **A** icon under the message field brings up a cheat-sheet for what we support.
+       3. Zulip uses a subset of [GitHub Flavored Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables) (GFM), and the **A** icon under the message field brings up a cheat-sheet for what we support. You can also see that cheat-sheat by going to the cog (![cog](images/cog.png)) is in the upper right corner of the right sidebar and choosing "Message formatting" from the drop-down menu.
 
        3. If a message is interrupted before you send it, the next time you open the "New stream message" interface you'll see "Restore draft" below the message field. Currently we only save a single interrupted message, and if you leave the Zulip site the message will be deleted.
 
@@ -62,7 +66,28 @@
 
     2. **Show only messages in a particular stream**: This is called "narrowing" to a stream. The simplest way is by clicking on the stream's name in the left sidebar.
 
-    2. **Show only messages in a particular topic"**: Click on the topic, on a message containing it in the message table. You can do the same thing by clicking on a stream in the left sidebar to open a list of recent topics, and then click on a topic there. Only the most topics are listed, though; if you want to find an older topic, you may have to use the search box (above the message table) or scroll back in time by hand.
+    2. **Show only messages in a particular topic**: Click on the topic, on a message containing it in the message table. You can do the same thing by clicking on a stream in the left sidebar to open a list of recent topics, and then click on a topic there. Only the most topics are listed, though; if you want to find an older topic, you may have to use the search box (above the message table) or scroll back in time by hand.
+
+    2. **Show only messages with a particualr user**: Click on the user's name in the right sidebar and your PM history will appear. If you have had group-PM conversations, they will only show up if you "narrow to" private messages with all participants — narrowing to just one user will not show group PMs including that user.
+
+    2. **What keyboard shortcuts are available?** Go to the cog (![cog](images/cog.png)) is in the upper right corner of the right sidebar and choosing "Keyboard shortcuts" from the drop-down menu.
+
+    2. **What formatting is available for my message?** Zulip uses a subset of [GitHub Flavored Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables) (GFM), To see the current subset, go to the cog (![cog](images/cog.png)) is in the upper right corner of the right sidebar and choosing "Message formatting" from the drop-down menu.
+
+    2. **How do you search for past messages?** It is possible to do limited searches on past messages. Some special features and limitations:
+    
+       3. If there are many hits, only the most recent ones are returned.
+       
+       3. Searching by date isn't currently possible. 
+
+       3. Search hits include morphological variants by default (if you search for _walking_ you'll also get _walk_, _walks_, _walked_, and so on). Sometimes putting a search term in quotes seems to eliminate the morphological variants, but the behavior isn't consistent yet.
+
+       3. It's possible to combine search terms within parentheses using logical operators — searching for `("arrays" and "queues")` will return only those messages containing both _arrays_ and _queues_.
+
+       3. Many common words are "stop words" — the search tool will ignore them, because they appear in too many messages to be useful.
+    
+       3. To see a list of search operators, go to the cog (![cog](images/cog.png)) is in the upper right corner of the right sidebar and choosing "Search help" from the drop-down menu.
+
 
     2. **User status** is marked by little circles to the left of a user's name:
 
@@ -88,63 +113,17 @@
 
           * Turning off ("muting") a stream, while staying subscribed to it.
 
-          * "Pinning" a stream (moving it to the top of the list of streams.
+          * "Pinning" a stream (moving it to the top of the list of streams).
 
           * Marking all messages as read.
 
           * Choosing a custom color.
 
+	  You can leave the Streams pane by clicking on Home near the top of the left sidebar.
+
+
+
  1. **Help**
  
----
 
-
-Search people — start of names only.
-
-Zulip desktop apps! https://zulip.tabbott.net/apps/. 
-    Android
-    iPhone
-    Cross-platform desktop
-    Mac
-    Linux
-    Windows
-    Plan 9
-
-GROUP PMs — stay visible for X days after last activity same user-status circles as for individual users. If some but not all of the users are active, the circle will be a lighter shade of green than qqq
-
-past PMs — clicking on a user shows the whole past conversation history. if you have had group-PM conversations, they will only show up if you "narrow to" private messages with all participants
-
-deleting a message
-
----
-
-Messages in Zulip go to a *stream* and have a *topic*.
-
-Streams
-
-*Streams* are like chat rooms or mailing lists. You can easily *join*, *leave*, and *make* them.
-
-
-Topics
-
-The topic of a conversation is one or two words that describe what it is about, for example: Bug #345, lunch, or logo. Don't overthink it. 
-
-
-Narrowing
-
-You can narrow to a stream or topic by clicking on it, or see messages from all streams at once from your Home view.
-
-
-Replying
-
-Reply to a message by clicking on it. The stream and topic will automatically be filled in.
-
-
-Welcome to Zulip
-
-Streams, topics, and narrowing make Zulip conversations efficient and productive.
-
-That's all there is to it, so let's get started!
-
----
 
